@@ -17,6 +17,7 @@
             android:theme="@style/AppThemeFullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -26,18 +27,20 @@
         <activity
             android:name=".AuthenticationActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppThemeNoActionBar"></activity>
+            android:theme="@style/AppThemeNoActionBar" />
         <activity
             android:name=".RegistrationActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAUaQZnalUit_4e8ZSDZ8WUvA3F3lQxCjk"/>
         <!--android:value="AIzaSyCu0itULZ1JMR0KkvYGmG-T4obUtq5eT8Y" />-->
 
-        <activity android:name=".FeedData">
-        </activity>
+        <activity android:name=".FeedData"></activity>
+        <activity
+            android:name=".NavActivity"
+            android:label="@string/title_activity_nav"></activity>
     </application>
 
 </manifest>
