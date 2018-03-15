@@ -33,7 +33,8 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCu0itULZ1JMR0KkvYGmG-T4obUtq5eT8Y" />
+            android:value="AIzaSyAUaQZnalUit_4e8ZSDZ8WUvA3F3lQxCjk"/>
+        <!--android:value="AIzaSyCu0itULZ1JMR0KkvYGmG-T4obUtq5eT8Y" />-->
 
         <activity android:name=".FeedData">
         </activity>

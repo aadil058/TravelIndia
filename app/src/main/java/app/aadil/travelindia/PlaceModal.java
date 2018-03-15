@@ -39,8 +39,8 @@ public class PlaceModal implements com.squareup.picasso.Target {
     }
 
     @Override
-    public void onBitmapFailed(Exception e,Drawable errorDrawable) {
-        mImage = ((BitmapDrawable)errorDrawable).getBitmap();
+    public void onBitmapFailed(Exception e, Drawable errorDrawable) {
+        mImage = ((BitmapDrawable) errorDrawable).getBitmap();
         adapter.notifyDataSetChanged();
     }
 

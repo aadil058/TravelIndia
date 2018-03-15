@@ -7,12 +7,20 @@
     android:orientation="vertical"
     tools:context="app.aadil.travelindia.SearchActivity">
 
-    <fragment
-        android:id="@+id/place_autocomplete_fragment"
+    <!--<fragment-->
+        <!--android:id="@+id/place_autocomplete_fragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:name="com.google.android.gms.location.places.ui.SupportPlaceAutocompleteFragment"-->
+        <!--/>-->
+
+    <AutoCompleteTextView
+        android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.google.android.gms.location.places.ui.SupportPlaceAutocompleteFragment"
-        />
+        android:inputType="textCapWords"
+        android:layout_margin="10dp"
+        android:hint="@string/search_hint"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"

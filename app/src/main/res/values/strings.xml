@@ -72,4 +72,6 @@
         <item>West Bengal</item>
     </string-array>
 
+    <string name="SearchHint">Type a place or state name</string>
+
 </resources>

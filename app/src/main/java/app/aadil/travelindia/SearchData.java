@@ -32,7 +32,6 @@ public class SearchData {
     public static void addCity(String City, List<String> Places) {
         List<String> Places_Copy = new ArrayList<>();
         Places_Copy.addAll(Places);
-
         db.put(City, Places_Copy);
     }
 
